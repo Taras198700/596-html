@@ -1,18 +1,230 @@
-/*body {
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;500;600;700&family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lexend:wght@100;500;600;700&family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,400;1,500&display=swap');
+
+:root {
+   --salmon-color: #bdf53c;
+   --black-color: #333;
+   --main-font: Lato,sans-serif;
+   --cursive-font: 'Niconne', cursive;
+  }
+
+*{
+    margin: 0;
+}
+
+body{
     max-width: 1295px;
     margin: auto;
-}*/
+}
 
 header{
     background-image: url(../img/header.jpg);
     background-size: cover;
-    min-height: 300px;
+    background-position: center;
 }
 
-.wrapper {
+.wrapper{
     padding-left: 24px;
     padding-right: 24px;
 }
+
+#header-info{
+    color: rgb(147,111,98);
+    font-family: var(--main-font);
+    display: none;
+    padding: 33px 24px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 2.5px;
+}
+
+#header-paragraph{
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-paragraph span a{
+    color: rgb(17, 17, 17);
+    font-weight: 700;
+    font-family: Newsreader;
+    text-decoration-line: none;
+    margin: 0 60px;
+}
+
+#header-main-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#header-logo img {
+    display: block;
+    border-radius: 30px;
+    width: 105px;
+}
+
+#burger-checkbox {
+    display: none;
+}
+
+#burger-checkbox:checked ~ #main-navigation {
+    display: block;
+}
+
+#main-navigation {
+    display: none;
+}
+
+#header-navigation {
+    display: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#header-navigation a{
+    color: rgb(22, 21, 21);
+    font-weight: 700;
+    font-family: Newsreader;
+    text-decoration-line: none;
+    margin: 0 20px;
+}
+
+#header-social-icons{
+    display: none;
+}
+
+#header-social-icons img{
+    color: rgb(147,111,98);
+    width: 30px;
+    height: 30px;
+}
+
+#description-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-header {
+    color: var(--salmon-color);
+    font-size: 22px;
+    font-family: var(--cursive-font);
+    font-style:italic ;
+}
+
+h1 {
+    font-size: 35px;
+    color: var(--black-color);
+    font-family: Lexend,sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    padding-top: 20px;
+}
+
+h1 span{
+    color: var(--salmon-color);
+}
+
+.section-description {
+    font-size: 20px;
+    font-family: var(--main-font);
+    color: #868686;
+    line-height: 1.5;
+    padding-top: 40px;
+}
+
+.main-page-buttons {
+    padding-top: 40px;  
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+ }
+
+.main-page-buttons a {
+    margin: 10px 20px 10px 0;
+    text-decoration: none;
+    padding: 20px 24px;
+    width: fit-content;
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+ }
+ 
+ #shop-now-button {
+     background-color: var(--salmon-color);
+     color: #FCFFF9;
+ }
+ 
+ #about-us-button {
+     border: 2px solid var(--black-color);
+     color: var(--black-color);
+ }
+
+@media (min-width: 768px) {
+    
+    #description-section {
+        padding-top: 160px;
+        padding-bottom: 160px;
+        max-width: 420px;
+    }
+
+    .section-header {
+        font-size: 26px;
+    }
+
+    h1 {
+        font-size: 59px;
+        padding-top: 5px;
+    }
+
+    .section-description {
+        padding-top: 20px;
+    }    
+}
+
+@media (min-width: 991px) {
+
+    .wrapper{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #description-section {
+        padding-top: 240px;
+        padding-bottom: 240px;
+        max-width: 470px;
+    }
+
+    h1 {
+        font-size: 64px;
+        padding-top: 5px;
+    }
+    
+    .burger-icon {
+        display: none;
+    }
+
+    #header-info {
+        display: block;
+    }
+
+    #main-navigation {
+        display: block;
+    }  
+
+    #header-navigation {
+        display: block;
+    }
+
+    #header-social-icons{
+        display: block;
+    }
+}
+
 
 /*
 h4 {
