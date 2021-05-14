@@ -250,11 +250,6 @@ h3:hover {
     background-size: cover;
     min-height: 200px;
 }
-.site-footer {
-    background-image: url(../img/header.jpg);
-    background-size: cover;
-    min-height: 150px;
-}
 */
 .product-list {
     display: flex;
@@ -262,4 +257,16 @@ h3:hover {
 
 .product-list img {
     margin-top: 15px;
+}
+
+/* footer_elements*/
+.footer_elements {
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1f
+}
+
+.navigation_text_style {
+    text-align: center;
+    font-size: 20px;
 }
