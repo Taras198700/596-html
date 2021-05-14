@@ -44,7 +44,6 @@ header{
     display: flex;
     justify-content: space-between;
 }
-
 #header-paragraph span a{
     color: rgb(17, 17, 17);
     font-weight: 700;
@@ -63,7 +62,7 @@ header{
 
 #header-logo img {
     display: block;
-    border-radius: 30px;
+    border-radius: 40px;
     width: 105px;
 }
 
@@ -90,7 +89,7 @@ header{
     font-weight: 700;
     font-family: Newsreader;
     text-decoration-line: none;
-    margin: 0 20px;
+    margin: 0 19px;
 }
 
 #header-social-icons{
@@ -233,10 +232,15 @@ h4 {
 }
 p {
     text-align: justify;
-  }
+  }*/
 .wpb_wrapper {
-    width: 600px;
+    color: rgb(22, 21, 21);
+    font-weight: 700;
+    font-family: Newsreader;
+    text-decoration-line: none;
+    margin: 0 19px;
 }
+/*
 h3:hover {
     text-decoration: underline;
 }
@@ -251,6 +255,7 @@ h3:hover {
     background-size: cover;
     min-height: 150px;
 }
+*/
 .product-list {
     display: flex;
 }
@@ -258,4 +263,3 @@ h3:hover {
 .product-list img {
     margin-top: 15px;
 }
-*/
