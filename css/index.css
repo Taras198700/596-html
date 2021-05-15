@@ -3,11 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lexend:wght@100;500;600;700&family=Niconne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,400;1,500&display=swap');
 
-:root {
-   --black-color: #000000;
-   --main-font: Lato,sans-serif;
-   --cursive-font: 'Niconne', cursive;
-  }
+
 
 *{
     margin: 0;
@@ -31,7 +27,7 @@ header{
 }
 
 #header-info{
-    color: rgb(147,111,98);
+    color: #b98108;
     font-family: var(--main-font);
     display: none;
     padding: 33px 24px;
@@ -85,7 +81,7 @@ header{
 }
 
 #header-navigation a{
-    color: rgb(22, 21, 21);
+    color: #3f0808;
     font-weight: 700;
     font-family: Newsreader;
     text-decoration-line: none;
@@ -97,7 +93,7 @@ header{
 }
 
 #header-social-icons img{
-    color: rgb(210, 243, 62);
+    color: #f5f82a;
     width: 30px;
     height: 30px;
 }
@@ -116,8 +112,8 @@ header{
 
 h1 {
     font-size: 35px;
-    color: var(--black-color);
-    font-family: Lexend,sans-serif;
+    color: var #000000;
+    font-family: Lexend;
     font-weight: 700;
     line-height: 1.1;
     padding-top: 20px;
@@ -264,23 +260,23 @@ h3:hover {
     background-color: white;
     padding-bottom: 20px;
     padding-top: 20px;
-    margin-left: 40px;
+    margin-left: 30px;
     width: 400px;
     height: 380px;
 }
 
 .social_icons {
     display: flex;
-    
+    margin-left: 20px;
 }
 
 .facebook_logo, .instagram_logo, .youtube_logo {
-    padding-right: 10px;
-    padding-bottom: 80px;
+    padding-right: 15px;
+    padding-bottom: 10px;
 }
 
 .footer_grid_elements {
-    padding-top: 70px;
+    padding-top: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -325,7 +321,7 @@ h3:hover {
 }
 
 .contacts_footer_phone_text, .contacts_footer_email_text, .contacts_footer_address_word {
-    color: #20c798;
+    color: #2b2222a9;
     font-size: 15px;
     font-weight: bold;
     display: block;
@@ -333,7 +329,7 @@ h3:hover {
 }
 
 .contacts_footer_phone_link, .contacts-footer-email-link {
-    color: #4e68d7;
+    color: #ebcb40;
 }
 
 .contacts_footer_phone_link:hover, .contacts-footer-email-link:hover {
@@ -350,19 +346,14 @@ ul {
 }
 
 .navigation_text_footer, .quick_links_footer, .contacts_footer {
-       color: #4e72d0;
+       color: #212e10ce;
 
 }
 
 .address_type {
     color: #9a9a9a;
 }
-
-
-
-.footer_logo_text {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: #9a9a9a;
-    font-family: Newsreader;
+.flogo_and_social_icons {
+    display: flex;
+    margin-left: 20px;
 }
