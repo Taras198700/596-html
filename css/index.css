@@ -135,7 +135,7 @@ h1 {
     }
 }
 
-/*main block*/
+/*main block "vc_row"*/
 .vs_row {
     margin-left: -15px;
     margin-right: 15px;
@@ -169,7 +169,35 @@ h1 {
 }
 
 .vc_column-inner {
+    margin-top: 20px;
+}
 
+.vc_custom_1595327303250 {
+    padding-top: 100px !important;
+    padding-right: 20% !important;
+    padding-bottom: 140px !important;
+    padding-left: 20% !important;
+}
+
+h5 {
+    font-family: Lato;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    color: #686868;
+    font-size: 12px;
+}
+
+h3 {
+    font-family: 'Lato';
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 36px;
+    color: #3a3a3a;
+    line-height: 36px;
 }
 /*
 .wpb_wrapper {
