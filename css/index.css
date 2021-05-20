@@ -24,6 +24,7 @@ div {
     display: block;
 }
 /* Body */
+
 /* Hedaer*/
 
 header{
@@ -118,7 +119,7 @@ h1 {
     padding-top: 20px;
 }
 
-@media (min-width: 991px) {
+@media (min-width: 710px) {
 
     .wrapper{
         padding-left: 40px;
@@ -149,6 +150,43 @@ h1 {
     #header-social-icons{
         display: block;
     }
+}
+/*Abbout us*/
+.vc_custom_1496069271236 {
+  margin-top: 20px !important;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 0;
+  margin: 0;
+  color: #525252;
+  font-size: 1.4em;
+  line-height: 2em;
+  padding: 5em 10%;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+blockquote p {
+  display: inline;
+}
+cite {
+  font-style: italic;
+}
+blockquote .cite-author {
+  display: block;
+  margin-top: 20px;
+  font-weight: 600;
+}
+blockquote .cite-author a {
+  color: #8793d2;
+  font-size: inherit;
+  font-weight: inherit;
 }
 /*vc-row*/
 .vc_row {
@@ -226,6 +264,25 @@ h3 {
   font-size: 1.17em;
   margin-block-start: 1em;
   margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+h2 {
+  font-family: 'Lato';
+  font-size: 24px;
+  letter-spacing: -2px;
+  font-weight: 300;
+  line-height: 26px;
+  color: black;
+  line-height: 36px;
+  letter-spacing: 1px;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
