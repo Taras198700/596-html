@@ -24,7 +24,17 @@ div {
     display: block;
 }
 /* Body */
-
+body {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  color: #9f9f9f;
+}
+body {
+  color: grey;
+}
 /* Hedaer*/
 
 header{
@@ -188,6 +198,90 @@ blockquote .cite-author a {
   font-size: inherit;
   font-weight: inherit;
 }
+/*portfolio*/
+.page .page-title {
+  border-bottom: 1px solid #ececec;
+}
+.page-title {
+  position: relative;
+  text-align: center;
+  min-height: 100px;
+  line-height: 100px;
+  margin-bottom: 90px;
+  margin-top: -100px;
+  color: black;
+  top: 40px;
+  padding: 30px 10% 18px;
+  z-index: 101;
+  -webkit-transition: all ease 0.7s!important;
+  -moz-transition: all ease 0.7s!important;
+  transition: all ease 0.7s!important;
+}
+#main-content {
+  width: 68%;
+  margin-right: 50px;
+  float: left;
+  padding-right: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#main-content {
+  width: 70%;
+  float: left;
+  padding-right: 60px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#main-content {
+  width: 68%;
+  margin-right: 50px;
+  float: left;
+  padding-right: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.fullwidth {
+  width: 100%!important;
+  padding-right: 0!important;
+  padding-left: 0!important;
+}
+.vc_column-inner::after, .vc_column-inner::before {
+  content: " ";
+  display: table;
+}
+.vc_column-inner::after {
+  clear: both;
+}
+.vc_column-inner::after, .vc_column-inner::before {
+  content: " ";
+  display: table;
+}
+.vc_custom_1559149569595 {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+element.style {
+  position: relative;
+  height: 1324px;
+}
+#main-content ol, #main-content ul {
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 20px;
+}
+.portfolio-gallery .wpb_image_grid_ul {
+  -webkit-padding-start: 0!important;
+}
+.wpb_image_grid .wpb_image_grid_ul {
+  margin: 0;
+  padding: 0;
+}
+
 /*vc-row*/
 .vc_row {
   margin-left: -15px;
@@ -300,8 +394,12 @@ a {
   font-weight: 300;
   text-decoration: none;
 }
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
 a:-webkit-any-link {
-  color: -webkit-link;
+  /*color: -webkit-link;*/
   cursor: pointer;
   text-decoration: underline;
 }
@@ -314,6 +412,19 @@ a:-webkit-any-link {
   padding: 14px 30px 240px 20px;
   text-align: left;
 }
+.feature-box:hover {
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -ms-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+  transform: scale(1.05);
+  -webkit-transform: scale(1.06);
+  -moz-transform: scale(1.06);
+  -o-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+}
+
 .vc_custom_1559147748253 {
   padding-bottom: 650px !important;
   background-image: url(../img/tamborki-2-min.jpg) !important;
@@ -394,6 +505,7 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
 /* vc_row wpb_row vc_row-fluid vc_custom_1498772743509 */
 .vc_custom_1498772743509 {
   margin-top: 60px !important;
@@ -405,6 +517,7 @@ p {
   padding-right: 15px;
   width: 100%;
 }
+
 .vc_sep_pos_align_center {
   margin-left: auto;
   margin-right: auto;
