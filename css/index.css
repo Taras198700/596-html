@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,400;1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 :root {
     --woocommerce: #a46497;
     --wc-green: #7ad03a;
@@ -103,9 +103,9 @@ header{
 }
 
 #header-navigation a{
-    color: #3f0808;
+    color: #000000;
     font-weight: 700;
-    font-family: Newsreader;
+    font-family: Lato;
     text-decoration-line: none;
     margin: 0 19px;
 }
