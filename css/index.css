@@ -71,6 +71,7 @@ header{
 }
 
 #header-main-menu{
+    position:inherit;
     display: flex;
     justify-content: space-between;
     align-items: center;
