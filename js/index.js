@@ -5,5 +5,5 @@ clock.style.color = 'black';
 }
 setInterval(updateClock, 1000);
 
-const headerParagraph = document.querySelector('header-paragraph');
+const headerParagraph = document.querySelector('.header-paragraph');
 headerParagraph.style.alignItems = 'center';
