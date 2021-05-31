@@ -388,7 +388,7 @@ h2 {
 }
 
 @media (min-width: 768px) {
-    .soap-categories {
+    .embroidery-categories {
         max-width: 180px;
     }
 }
@@ -430,20 +430,20 @@ h2 {
     border: none;
 }
 
-.soap-categories p {
+.embroidery-categories p {
     padding-top: 20px;
     margin: auto;
     text-align: center;
     padding-bottom: 30px;
 }
 
-.soap-categories img {
+.embroidery-categories img {
     padding-top: 60px;
     max-width: 100%;
     margin: auto;
 }
 
-.soap-categories a {
+.embroidery-categories a {
     padding: 15px 30px;
     display: block;
     margin: auto;
@@ -680,7 +680,7 @@ article a {
     color: var(--paragraph-color); 
 }
 
-.soap-image {
+.embroidery-image{
     display: block;
     max-width: 100%;
     margin-top: 60px;
@@ -988,7 +988,7 @@ article a {
 }
 
 footer {
-    background: #39730c;
+    background: #ffffff;
     padding-bottom: 20px;
 }
 

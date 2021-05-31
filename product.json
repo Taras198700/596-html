@@ -1,4 +1,3 @@
-const products = `
 [
   {
     "id": "1",
@@ -71,28 +70,4 @@ const products = `
     "imgUrl": "img/Tropical leaves 14cm.png",
     "price": "57"
   }  
-]`;
-
-(function renderProductItems() {
-  const productItems =  JSON.parse(products);
-  let productsHtml = '';
-  for (const product of productItems) {
-    productsHtml += getProductItemHtml(product);
-  }
-  document.querySelector('.shop-items').innerHTML = productsHtml;
-})()
-
-
-function getProductItemHtml (item) {
-  return `
-  <article>
-    <a href="product.html"><img src="${item.imgUrl}" alt="" class="embroidery-image"></a>
-    <h3><a href="product.html" class="embroidery-name">${item.name}</a></h3>
-    <p class="soap-price">$ ${item.price}</p>
-    <a href="#cart" class="button">Add to Cart</a>
-  </article>
-  `;
-}
-
-
-
+]
